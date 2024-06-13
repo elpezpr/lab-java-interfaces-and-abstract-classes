@@ -27,5 +27,16 @@ public class Main {
         System.out.println(utilityVehicleDetails);
         String truckDetails = truck.getInfo();
         System.out.println(truckDetails);
+
+        // Create video objects
+        Video video1 = new Movie("Hey You", 90, 45);
+        Video tvSeries = new TvSeries("Lost", 60, 50);
+
+        // Call getMovieInfo
+        String movie = video1.getMovieInfo();
+        System.out.println(movie);
+        String series = tvSeries.getMovieInfo();
+        System.out.println(series);
+
     }
 }

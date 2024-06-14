@@ -38,5 +38,37 @@ public class Main {
         String series = tvSeries.getMovieInfo();
         System.out.println(series);
 
+        // Create an instance of IntArrayList
+        IIntList intList = new IntArrayList(10); // Initial capacity of 10
+
+        // Add numbers to the intList
+        intList.add(1);
+        intList.add(2);
+        intList.add(3);
+        intList.add(4);
+        intList.add(5);
+        intList.add(6);
+        intList.add(7);
+        intList.add(8);
+        intList.add(9);
+        intList.add(10);
+        intList.add(11);
+
+        // Get and print elements from intList
+        System.out.println(intList.get(0));
+        System.out.println(intList.get(1));
+        System.out.println(intList.get(2));
+        System.out.println(intList.get(3));
+        System.out.println(intList.get(4));
+        System.out.println(intList.get(5));
+        System.out.println(intList.get(6));
+        System.out.println(intList.get(7));
+        System.out.println(intList.get(8));
+        System.out.println(intList.get(9));
+        System.out.println(intList.get(14));
+
+
+
+
     }
 }

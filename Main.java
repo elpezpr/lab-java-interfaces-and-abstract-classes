@@ -39,7 +39,7 @@ public class Main {
         System.out.println(series);
 
         // Create an instance of IntArrayList
-        IIntList intList = new IntArrayList(10); // Initial capacity of 10
+        IIntList intList = new IntArrayList();
 
         // Add numbers to the intList
         intList.add(1);
@@ -67,7 +67,36 @@ public class Main {
         System.out.println(intList.get(9));
         System.out.println(intList.get(14));
 
+        // Create an instance of IntVector
+        IIntList intVector = new IntVector();
 
+        // Get and print elements from intVector
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+        intVector.add(1);
+
+
+        // Get and print elements from intVector
+        System.out.println(intVector.get(20));
 
 
     }
